@@ -1,8 +1,8 @@
 {
-  "version": "2.1.6",
-  "versionCode": 20,
-  "apk": "MyGf-2.1.6.apk",
-  "sha256": "987b8679aa408e946cfd06a1297a798a2ff6cb9a86d592e26d63ea6cf5f09d0b",
+  "version": "2.1.7",
+  "versionCode": 21,
+  "apk": "MyGf-2.1.7.apk",
+  "sha256": "5895fdc70a8538384d28c827db802ac31037f8c032f38fbbb13ee8dd21db3dfb",
   "size": 682106,
-  "notes": "Kemas kini Android terus dari app tanpa token GitHub."
+  "notes": "10 pilihan warna dan 3 reka bentuk UI yang boleh digabungkan dalam Tetapan → Paparan."
 }

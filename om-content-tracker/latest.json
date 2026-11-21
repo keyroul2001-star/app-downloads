@@ -1,1 +1,8 @@
-{"paused":true}
+{
+  "version": "1.4.3",
+  "versionCode": 9,
+  "apk": "OM-Content-Tracker-1.4.3.apk",
+  "sha256": "87aa4a0a985ca701db41785262e927498d74281301d423c3ead579d7118a3823",
+  "size": 74369,
+  "notes": "Kemas kini Android terus dari app tanpa token GitHub."
+}

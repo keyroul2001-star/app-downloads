@@ -1,1 +1,8 @@
-{"paused":true}
+{
+  "version": "2.1.6",
+  "versionCode": 20,
+  "apk": "MyGf-2.1.6.apk",
+  "sha256": "987b8679aa408e946cfd06a1297a798a2ff6cb9a86d592e26d63ea6cf5f09d0b",
+  "size": 682106,
+  "notes": "Kemas kini Android terus dari app tanpa token GitHub."
+}

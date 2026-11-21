@@ -1,8 +1,8 @@
 {
-  "version": "1.4.6",
-  "versionCode": 12,
-  "apk": "OM-Content-Tracker-1.4.6.apk",
-  "sha256": "b10db607263ac8689609ca6e31a7b52b301eeb215e9c27f5ea66ba073f1a225f",
-  "size": 308012,
-  "notes": "Tema Silver 3D, header lebih ringkas, tarikh rapat dengan kad dan ikon aplikasi baharu."
+  "version": "1.4.7",
+  "versionCode": 13,
+  "apk": "OM-Content-Tracker-1.4.7.apk",
+  "sha256": "0d55c4086fe2ada9d185d88d5210713b8d141537409e81528736a33a61eac9f5",
+  "size": 287461,
+  "notes": "Logo di bar atas kini menggunakan ikon aplikasi Silver 3D."
 }

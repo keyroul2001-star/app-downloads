@@ -1,0 +1,68 @@
+name: Urus keluaran Android
+
+on:
+  workflow_dispatch:
+    inputs:
+      app:
+        description: 'Kod app — mygf atau om-content-tracker'
+        type: string
+        default: mygf
+        required: true
+      tindakan:
+        description: Tindakan
+        type: choice
+        options: [Semak, Terbitkan, Jeda, Sambung]
+        default: Semak
+        required: true
+      apk:
+        description: Nama fail APK yang sudah dimuat naik ke folder app (untuk Terbitkan)
+        type: string
+      nota:
+        description: Nota keluaran yang akan dipaparkan dalam app (untuk Terbitkan)
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: owner-release-management
+  cancel-in-progress: false
+
+jobs:
+  keluaran:
+    if: github.ref == 'refs/heads/main' && github.actor == github.repository_owner && github.triggering_actor == github.repository_owner
+    name: Semak atau urus keluaran
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    env:
+      APP_ID: ${{ inputs.app }}
+      RELEASE_ACTION: ${{ inputs.tindakan }}
+      APK_NAME: ${{ inputs.apk }}
+      RELEASE_NOTES: ${{ inputs.nota }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Sediakan peralatan Android
+        if: inputs.tindakan != 'Jeda'
+        uses: android-actions/setup-android@be39fa834029ff78f1a44aa3bb0819b8fc2bd8fd
+        with:
+          packages: build-tools;35.0.0
+      - name: Sahkan dan kemas kini saluran
+        run: |
+          set -euo pipefail
+          sdk="${ANDROID_SDK_ROOT:-$ANDROID_HOME}"
+          python3 .github/manage-releases.py "$RELEASE_ACTION" "$APP_ID" \
+            --apk="$APK_NAME" --notes="$RELEASE_NOTES" --tools "$sdk/build-tools/35.0.0"
+          manifest="$APP_ID/latest.json"
+          if git diff --quiet -- "$manifest" && git ls-files --error-unmatch -- "$manifest" >/dev/null 2>&1; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$manifest"
+          git diff --cached --quiet && exit 0
+          git commit -m "$RELEASE_ACTION keluaran Android untuk $APP_ID"
+          git push origin HEAD:main

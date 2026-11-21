@@ -1,0 +1,12 @@
+{
+  "om-content-tracker": {
+    "name": "OM Content Tracker",
+    "package": "my.kai.omcontenttracker",
+    "signerSha256": "b6ae1ac4bf5d9bfd27b14cf42f21c9399f1254baf43e5464da0fcc70c3675f34"
+  },
+  "mygf": {
+    "name": "MyGood Finance",
+    "package": "com.kaifinance.mygf.next",
+    "signerSha256": "63237b5500a428670308802f1822199115d9fac42a9184902274d1a5b6269442"
+  }
+}

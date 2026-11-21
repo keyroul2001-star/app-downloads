@@ -1,8 +1,8 @@
 {
-  "version": "1.4.4",
-  "versionCode": 10,
-  "apk": "OM-Content-Tracker-1.4.4.apk",
-  "sha256": "fbce39df3643aebc6417c9ae732bf4851ecd04ebad025f195e49c87458233ad2",
-  "size": 74369,
-  "notes": "Senarai Upcoming memaparkan tujuh hari akan datang. Pilih tarikh lebih jauh melalui kalendar. Tajuk dan penapis dipadatkan, dan bar atas kini bergaya Liquid Glass."
+  "version": "1.4.5",
+  "versionCode": 11,
+  "apk": "OM-Content-Tracker-1.4.5.apk",
+  "sha256": "fe150144b79ea5f6206f36cffa6a7e4d593bb3a06fe65fa81ab308bd14c4f440",
+  "size": 271052,
+  "notes": "Refresh dialihkan ke sebelah tarikh senarai. Konten lepas boleh dilihat melalui kalendar. Latar bercorak titik kini mengikut tema pilihan."
 }

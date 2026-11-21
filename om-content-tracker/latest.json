@@ -1,8 +1,8 @@
 {
-  "version": "1.4.3",
-  "versionCode": 9,
-  "apk": "OM-Content-Tracker-1.4.3.apk",
-  "sha256": "87aa4a0a985ca701db41785262e927498d74281301d423c3ead579d7118a3823",
+  "version": "1.4.4",
+  "versionCode": 10,
+  "apk": "OM-Content-Tracker-1.4.4.apk",
+  "sha256": "fbce39df3643aebc6417c9ae732bf4851ecd04ebad025f195e49c87458233ad2",
   "size": 74369,
-  "notes": "Kemas kini Android terus dari app tanpa token GitHub."
+  "notes": "Senarai Upcoming memaparkan tujuh hari akan datang. Pilih tarikh lebih jauh melalui kalendar. Tajuk dan penapis dipadatkan, dan bar atas kini bergaya Liquid Glass."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "2.1.7",
-  "versionCode": 21,
-  "apk": "MyGf-2.1.7.apk",
-  "sha256": "5895fdc70a8538384d28c827db802ac31037f8c032f38fbbb13ee8dd21db3dfb",
-  "size": 682106,
-  "notes": "10 pilihan warna dan 3 reka bentuk UI yang boleh digabungkan dalam Tetapan → Paparan."
+  "version": "2.1.8",
+  "versionCode": 22,
+  "apk": "MyGf-2.1.8.apk",
+  "sha256": "ce766648ee10c4cba490ca3aa9c39ed7208a6c7173c1fa48af61855251892329",
+  "size": 460922,
+  "notes": "Empat reka bentuk UI baharu, 10 palet dipadankan semula, kad Jumlah baki dan ikon Liquid Glass."
 }

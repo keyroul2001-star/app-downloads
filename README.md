@@ -4,7 +4,7 @@ Pasang APK peralihan sekali di atas versi sebelumnya. Selepas itu, buka **Tetapa
 
 | Aplikasi | APK bertandatangan | Maklumat versi |
 | --- | --- | --- |
-| OM Content Tracker | [OM-Content-Tracker-1.4.5.apk](om-content-tracker/OM-Content-Tracker-1.4.5.apk?raw=true) | [Versi semasa](om-content-tracker/latest.json) |
+| OM Content Tracker | [OM-Content-Tracker-1.4.6.apk](om-content-tracker/OM-Content-Tracker-1.4.6.apk?raw=true) | [Versi semasa](om-content-tracker/latest.json) |
 | MyGood Finance | [MyGf-2.1.8.apk](mygf/MyGf-2.1.8.apk?raw=true) | [Versi semasa](mygf/latest.json) |
 
 ## Pengurusan keluaran

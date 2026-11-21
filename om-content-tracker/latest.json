@@ -1,8 +1,8 @@
 {
-  "version": "1.4.5",
-  "versionCode": 11,
-  "apk": "OM-Content-Tracker-1.4.5.apk",
-  "sha256": "fe150144b79ea5f6206f36cffa6a7e4d593bb3a06fe65fa81ab308bd14c4f440",
-  "size": 271052,
-  "notes": "Refresh dialihkan ke sebelah tarikh senarai. Konten lepas boleh dilihat melalui kalendar. Latar bercorak titik kini mengikut tema pilihan."
+  "version": "1.4.6",
+  "versionCode": 12,
+  "apk": "OM-Content-Tracker-1.4.6.apk",
+  "sha256": "b10db607263ac8689609ca6e31a7b52b301eeb215e9c27f5ea66ba073f1a225f",
+  "size": 308012,
+  "notes": "Tema Silver 3D, header lebih ringkas, tarikh rapat dengan kad dan ikon aplikasi baharu."
 }

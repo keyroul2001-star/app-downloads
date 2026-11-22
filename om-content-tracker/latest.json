@@ -1,8 +1,8 @@
 {
-  "version": "1.4.11",
-  "versionCode": 17,
-  "apk": "OM-Content-Tracker-1.4.11.apk",
-  "sha256": "211fed74d53c32ca3b5cd3d85a02cec7eaf01f20230b70911712cf29493cafc8",
+  "version": "1.4.12",
+  "versionCode": 18,
+  "apk": "OM-Content-Tracker-1.4.12.apk",
+  "sha256": "63798f7b29d2cf4ccad4fbbc203755aac3f4c62af86bdb75deefb469ffd23a5c",
   "size": 291532,
-  "notes": "Skrip penuh daripada Google Sheets dan kemas kini terus dalam aplikasi."
+  "notes": "Pengesahan sync status lebih tepat dan paparan status tertunda."
 }

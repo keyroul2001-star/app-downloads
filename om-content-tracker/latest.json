@@ -1,8 +1,8 @@
 {
-  "version": "1.4.12",
-  "versionCode": 18,
-  "apk": "OM-Content-Tracker-1.4.12.apk",
-  "sha256": "63798f7b29d2cf4ccad4fbbc203755aac3f4c62af86bdb75deefb469ffd23a5c",
+  "version": "1.4.14",
+  "versionCode": 20,
+  "apk": "OM-Content-Tracker-1.4.14.apk",
+  "sha256": "a2836265dbcd9563799022776860dcbbdf58dcbdfdcfcf2c7a4842d7127939a9",
   "size": 291532,
-  "notes": "Pengesahan sync status lebih tepat dan paparan status tertunda."
+  "notes": "Tema Indigo 3D dengan kad biru lembut dan navigasi atas."
 }
